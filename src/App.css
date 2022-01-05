@@ -1,0 +1,48 @@
+.dark * {
+  --text: #FFC0CB;
+  --background: #282c34;
+}
+
+.pink * {
+  --text: #282c34;
+  --background: #FFC0CB;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background: var(--background);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+label img {
+  width: 96px;
+  height: 96px;
+  margin-top: 0;
+}
+
+img {
+  margin-top: 32px;
+}
+
+.clickable {
+  height: 96px;
+  width: 96px;
+  margin: 0 32px;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
